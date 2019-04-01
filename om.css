@@ -1,0 +1,126 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+	
+		background: url(logo11.png) repeat center;
+
+  	border: 3px solid #221D23;
+ 	background-color: #3F3717;
+ 	
+}
+.all {
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+
+}
+.old {
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	text-transform: capitalize;
+ 	
+}
+.new {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wobble {
+	transition: text 2.1s; 
+	width: 250px;
+	height: 250px;
+	background-color: #141414;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 200px 200px;
+	color: #6D1700;
+	padding: 100px 0px;
+	cursor: default;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+	-moz-user-select: none; /* Firefox 2+ */
+	user-select: none;
+	margin:2px;
+
+}
+.wobble:hover {
+	padding: 100px 20px;
+	color: #963C00;
+	z-index: -1;
+	
+}
+h1 {
+	transition: all 2s;
+}
+h1:hover {
+	transform: scale(4);
+}
+
+.openmind:hover {
+	transform: scale(1.1);
+	background-image: url(buddha.jpg);
+}
+
+.forrestwalk:hover {
+	transform: scale(1.1);
+	background-image: url(muhomor.jpg);
+}
+
+.relax:hover {
+	transform: scale(1.1);
+	background-image: url(weed.png);
+}
+#centerwindow {
+	width: 60px;
+	height: 60px;
+	background-color: #545454;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #B8B8B8;
+	border-radius: 50%;
+}
+#mainwindowlogo {
+	border: 2px solid #B8B8B8;
+	transition: all 1s;
+}
+#mainwindowlogo:hover {
+	transform: rotate(1080deg);
+}
+.mainflex {
+	width: 60px;
+	height: 60px;
+	background-color: #3F3F3F;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border:2px solid #B8B8B8;
+}
+
+.noshow {
+	width: 60px;
+	height: 60px;
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+}
